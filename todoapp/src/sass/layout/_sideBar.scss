@@ -1,0 +1,29 @@
+@import "../abstracts/_veribles.scss";
+@import "../base/_normalize.scss";
+
+*{
+    font-family:$arial-font;
+}
+
+.icon{
+    width:27px;
+    height:27px;
+    color:$white-color;
+    margin: 30px 0 -5px 0;
+    cursor: pointer;
+}
+a{
+    color: $white-color;
+    margin:0 0 0 20px;
+    cursor: pointer;
+}
+
+.main__menu{
+    background-color:$dark-color;
+    width: 230px;
+    min-height: 100vh;
+    height: 101%;
+    &__menu-bar{
+        vertical-align:center;
+    }
+}

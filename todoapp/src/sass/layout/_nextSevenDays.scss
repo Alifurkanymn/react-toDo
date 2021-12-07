@@ -1,0 +1,90 @@
+@import "../abstracts/_veribles.scss";
+@import "../base/_normalize.scss";
+
+.nextSevenDays {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    color: $white-color;
+  }
+  .nextSevenDays__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    &-title {
+      input {
+        width: 600px;
+        height: 50px;
+        color: #cecece;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background-color: #1f1f1f;
+        border: 1px solid #cecece;
+      }
+    }
+    &-details {
+      input {
+        height: 150px;
+        width: 600px;
+        margin-top: 10px;
+        color: #cecece;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background-color: #1f1f1f;
+        border: 1px solid #cecece;
+      }
+    }
+    &-select {
+      select {
+        width: 610px;
+        margin-top: 10px;
+        height: 35px;
+        background-color: #1f1f1f;
+        border: 1px solid #cecece;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        color: white;
+      }
+    }
+    &-button {
+      button {
+        width: 220px;
+        height: 40px;
+        margin-top: 40px;
+        color: #fe5f5f;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background-color: #1f1f1f;
+        border: 1px solid #fe5f5f;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        margin-bottom: 105px;
+      }
+      button:hover {
+        background-color: #646af1;
+        color: white;
+        border: 1px solid white;
+      }
+    }
+  }
+}

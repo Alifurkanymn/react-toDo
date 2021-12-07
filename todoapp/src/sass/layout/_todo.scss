@@ -1,0 +1,118 @@
+@import "../abstracts/_veribles.scss";
+@import "../base/_normalize.scss";
+.todo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    h1{
+        align-items: center;
+        margin-top: 30px;
+        font-size:40px;
+        color: $white-color;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        .titleInput{
+            width:600px;
+            height:50px;
+        }   
+        .detailsInput{
+            height:150px;
+            width:600px;
+            margin-top:10px;
+        }
+        input{
+            color: #CECECE;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            background-color:#1F1F1F;
+            border: 1px solid #CECECE;
+        }
+        &-button{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            button{
+                width: 220px;
+                height: 40px;
+                margin-top:12px;
+                color: #FE5F5F;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                background-color:#1F1F1F;
+                border: 1px solid #FE5F5F;
+                transition: 0.3s;
+                -webkit-transition: 0.3s;
+                -moz-transition: 0.3s;
+                -ms-transition: 0.3s;
+                -o-transition: 0.3s;
+            }
+            button:hover{
+                background-color:#646AF1;
+                color: white;
+                border: 1px solid $white-color;
+            }
+            input[type="file"]{
+                width: 220px;
+                height: 40px;
+                margin-top:12px;
+                color: #FE5F5F;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                background-color:#1F1F1F;
+                border: none;
+                transition: 0.3s;
+                -webkit-transition: 0.3s;
+                -moz-transition: 0.3s;
+                -ms-transition: 0.3s;
+                -o-transition: 0.3s;    
+
+            }
+            input[type="file"]::-webkit-file-upload-button
+            {
+                width: 220px;
+                height: 40px;
+                margin-top:0px;
+                color: #FE5F5F;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                background-color:#1F1F1F;
+                border: 1px solid #FE5F5F;
+                transition: 0.3s;
+                -webkit-transition: 0.3s;
+                -moz-transition: 0.3s;
+                -ms-transition: 0.3s;
+                -o-transition: 0.3s;  
+            }
+            input[type="file"]::-webkit-file-upload-button:hover{
+                background-color:#646AF1;
+                color: white;
+                border: 1px solid $white-color;
+            }
+
+        }
+        
+    }
+    .todo__List{
+        display: flex;
+        
+    }
+}
+

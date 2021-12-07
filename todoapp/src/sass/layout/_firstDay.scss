@@ -1,0 +1,58 @@
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:-55px;
+
+}
+.firstDay{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 60px;
+    &__form{
+        text-align: center;
+        &-title{
+            margin-top: 50px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 300px;
+            height: 40px;
+            background-color: #646AF1;
+            input{
+                background-color:#646AF1;
+                border: none;
+                color: white;
+                font-size:18px;
+                margin: 10px 0 0 -60px;
+            }
+        }
+        &-details{
+            width:299px;   
+            height:100px;
+            margin-top: 0px;  
+            border: 0.5px solid #AFAFAF;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            textarea{
+                font-size:18px;
+                z-index: 10;
+                height: 78px;
+                width:277px;
+                text-overflow: ellipsis;
+                color: white;
+                background-color:#1F1F1F;
+                border-radius:10px;
+                border: 0px solid ;
+                padding: 10px 10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                -ms-border-radius:10px;
+                -o-border-radius:10px;
+            }
+            textarea::-webkit-scrollbar{
+                width:0px;
+            }
+            
+        }
+    }
+}

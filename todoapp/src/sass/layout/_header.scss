@@ -1,0 +1,29 @@
+@import "../abstracts/_veribles.scss";
+@import "../base/_normalize.scss";
+
+header{
+    width: 100%;
+    height:10vh;
+    background-color:$dark-color;
+    .header__top{
+        display:flex;
+        justify-content:space-between;
+        &-logo{
+            img{
+                margin: 16px 0 12px 39px;
+                width: 202px;
+                height: 50px;
+                cursor: pointer;
+            }
+        }
+        &-icon{
+            .AiOutlineHome{
+                color: $white-color;
+                width: 40px;
+                height:40px;
+                margin: 19px 39px 12px 0;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.myGoalsList{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 114px;
+    margin-bottom: 150px;
+    &__item{
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-left: 40px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        &-input{display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-top: 80px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 300px;
+            height: 40px;
+            background-color: #646AF1;
+            &-top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top:10px;
+            input{
+                font-size:18px;
+                margin: 0 0 0 -18px;
+                background-color:#646AF1;
+                border: none;
+                color: white;
+            }
+            &-icon{
+                display: flex;
+                &-style{
+                    color: white;
+                    width:17px;
+                    height:17px;
+                }
+            }
+            }
+        }
+        &-content{
+            width:299px;   
+            height:100px;
+            margin-top: 8px;  
+            border: 0.5px solid #AFAFAF;      
+            textarea{
+                font-size:18px;
+                z-index: 10;
+                height: 78px;
+                width:277px;
+                text-overflow: ellipsis;
+                color: white;
+                background-color:#1F1F1F;
+                border-radius:10px;
+                border: 0px solid ;
+                padding: 10px 10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                -ms-border-radius:10px;
+                -o-border-radius:10px;
+            }
+            textarea::-webkit-scrollbar{
+                width:0px;
+            }
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    }
+    &__item:hover{
+        margin-top: 70px;
+    }
+}

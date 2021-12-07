@@ -1,0 +1,150 @@
+@import "../abstracts/_veribles.scss";
+@import "../base/_normalize.scss";
+
+.cleaning{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:115px;
+    margin-top: 50px;
+
+    &__item{
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        
+        &-content{
+            display:flex;
+            flex-direction: column;
+            &-nav{
+                display: flex;
+                justify-content: space-between;
+                width: 300px;
+                height: 40px;
+                margin-top: 30px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                background-color: #646AF1;
+                h1{
+                    font-size:18px;
+                    margin: 10px 0 0 6px;
+                    border: none;
+                    color: white;
+                }
+                &-icon{
+                    margin-top: 10px;
+                    color: white;
+                    margin-right: 6px;
+                    width:17px;
+                    height:17px;
+                }
+            }
+            &-details{
+                width:298px;   
+                height:100px;
+                border: 0.5px solid #AFAFAF;  
+                p{
+                    font-size:18px;
+                    height: 78px;
+                    width:277px;
+                    color: white;
+                    border-radius:10px;
+                    border: 0px solid ;
+                    padding: 10px 10px;
+                    -webkit-border-radius:10px;
+                    -moz-border-radius:10px;
+                    -ms-border-radius:10px;
+                    -o-border-radius:10px;
+                }
+            }
+        }
+        
+    }
+    &__item:hover{
+        box-shadow: 0px 15px 20px 0 black;
+        margin-top: 0px;
+    }
+}
+.ToDo__Cleaning{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left:115px;
+    margin-top: 50px;
+    &-item{
+        margin-left: 40px;
+        margin-top: 50px;
+        transition: 0.3s;
+        &-nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            h1{
+                font-size:18px;
+                margin: 0px 0 0 6px;
+                background-color:#646AF1;
+                border: none;
+                color: white;
+            }
+            width: 300px;
+            height: 40px;
+            background-color: #646AF1;
+            &-icon{
+                display: flex;
+                &-style{
+                    color: white;
+                    margin-right: 6px;
+                    width:17px;
+                    height:17px;
+                }
+            }
+        }
+        &-img{
+            img{
+                object-fit: cover;
+                width: 300px;
+                height: 160px;
+            }
+        }
+        &-content{
+            width:299px;   
+            height:100px;
+            border: 0.5px solid #AFAFAF;  
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;    
+            p{
+                font-size:18px;
+                height: 78px;
+                width:277px;
+                color: white;
+                border-radius:10px;
+                border: 0px solid ;
+                padding: 10px 10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                -ms-border-radius:10px;
+                -o-border-radius:10px;
+            }
+        }
+    }
+    &-item:hover{
+        box-shadow: 0px 15px 20px 0 black;
+        margin-top: 47px;
+    }
+}
+
+.title{
+    margin-top: 80px;
+    h1{
+        color: white;
+        text-align: center;
+    }    
+}
